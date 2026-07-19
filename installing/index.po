@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Installing Python modules"
-msgstr ""
+msgstr "Python Module களை பதிவிறக்குதல்"
 
 msgid ""
 "As a popular open source development project, Python has an active "
