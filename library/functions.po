@@ -7,6 +7,8 @@
 # Hari, 2026
 # Arun Madhu, 2026
 # Murugan Santhosh, 2026
+# Madhan Kumar S, 2026 
+#
 #
 #, fuzzy
 msgid ""
@@ -478,16 +480,23 @@ msgid ""
 "envvar:`PYTHONBREAKPOINT` environment variable. See :func:`sys."
 "breakpointhook` for usage details."
 msgstr ""
+"இயல்புநிலையில், :func:`breakpoint`-இன் செயல்பாட்டை :envvar:`PYTHONBREAKPOINT` "
+"எனும் சூழல் மாறியைக் (environment variable) கொண்டு மாற்றியமைக்கலாம். "
+"பயன்பாட்டு விவரங்களுக்கு :func:`sys.breakpointhook`-ஐப் பார்க்கவும்."
 
 msgid ""
 "Note that this is not guaranteed if :func:`sys.breakpointhook` has been "
 "replaced."
 msgstr ""
+":func:`sys.breakpointhook` மாற்றப்பட்டிருந்தால், "
+"இது உத்தரவாதம் அளிக்கப்படாது என்பதைக் கவனத்தில் கொள்க."
 
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``builtins.breakpoint`` with "
 "argument ``breakpointhook``."
 msgstr ""
+"``breakpointhook`` எனும் வாதத்துடன் ``builtins.breakpoint`` என்ற"
+" :ref:`தணிக்கை நிகழ்வை <auditing>` எழுப்புகிறது."
 
 msgid ""
 "Return a new array of bytes.  The :class:`bytearray` class is a mutable "
@@ -500,6 +509,8 @@ msgid ""
 "The optional *source* parameter can be used to initialize the array in a few "
 "different ways:"
 msgstr ""
+"விருப்பத்திற்குரிய *source* அளபுருவைப் (parameter) பயன்படுத்தி, "
+"அணியை (array) சில வெவ்வேறு வழிகளில் துவக்கலாம்:"
 
 msgid ""
 "If it is a *string*, you must also give the *encoding* (and optionally, "
@@ -511,12 +522,13 @@ msgid ""
 "If it is an *integer*, the array will have that size and will be initialized "
 "with null bytes."
 msgstr ""
-
+"அது ஒரு *முழு எண்* (integer) என்றால், அந்த அணிவரிசை (array) அந்த அளவைக் கொண்டிருக்கும் மற்றும் 'null' " "பைட்டுகளுடன் (null bytes) தொடக்கப்படுத்தப்படும்."
 msgid ""
 "If it is an object conforming to the :ref:`buffer interface "
 "<bufferobjects>`, a read-only buffer of the object will be used to "
 "initialize the bytes array."
 msgstr ""
+"அது :ref:`buffer interface <bufferobjects>`-க்கு இணங்கும் ஒரு பொருளாக இருந்தால், அந்தப் பொருளின் " "'வாசிக்க-மட்டும்' (read-only) இடையகமானது (buffer) 'bytes' அணியை (array) துவக்கப் பயன்படுத்தப்படும்."
 
 msgid ""
 "If it is an *iterable*, it must be an iterable of integers in the range ``0 "
@@ -525,9 +537,10 @@ msgstr ""
 
 msgid "Without an argument, an array of size 0 is created."
 msgstr ""
+"அளபுரு (argument) ஏதுமின்றி, 0 அளவுள்ள ஒரு அணி (array) உருவாக்கப்படுகிறது."
 
 msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
-msgstr ""
+msgstr ":ref:`binaryseq` மற்றும் :ref:`typebytearray` ஆகியவற்றையும் பார்க்கவும்."
 
 msgid ""
 "Return a new \"bytes\" object which is an immutable sequence of integers in "
@@ -539,12 +552,14 @@ msgstr ""
 msgid ""
 "Accordingly, constructor arguments are interpreted as for :func:`bytearray`."
 msgstr ""
+"அதற்கேற்ப, கன்ஸ்ட்ரக்டர் (constructor) அளபுருக்கள் :func:`bytearray`-க்கு "
+"உள்ளதைப் போலவே பொருள் கொள்ளப்படுகின்றன."
 
 msgid "Bytes objects can also be created with literals, see :ref:`strings`."
-msgstr ""
+msgstr "Bytes ஆப்ஜெக்ட்களை லிட்டரல்களைக் (literals) கொண்டும் உருவாக்கலாம்; :ref:`strings`-ஐப் பார்க்கவும்."
 
 msgid "See also :ref:`binaryseq`, :ref:`typebytes`, and :ref:`bytes-methods`."
-msgstr ""
+msgstr "மேலும் பார்க்கவும்: :ref:`binaryseq`, :ref:`typebytes` மற்றும் :ref:`bytes-methods`."
 
 msgid ""
 "Return :const:`True` if the *object* argument appears callable, :const:"
@@ -558,6 +573,8 @@ msgid ""
 "This function was first removed in Python 3.0 and then brought back in "
 "Python 3.2."
 msgstr ""
+"இந்தச் செயல்பாடு முதலில் Python 3.0-இல் நீக்கப்பட்டு, பின்னர் "
+"Python 3.2-இல் மீண்டும் கொண்டுவரப்பட்டது."
 
 msgid ""
 "Return the string representing a character with the specified Unicode code "
@@ -571,7 +588,7 @@ msgid ""
 msgstr ""
 
 msgid "Transform a method into a class method."
-msgstr ""
+msgstr "ஒரு மெத்தடை (method) ஒரு கிளாஸ் மெத்தடாக (class method) மாற்றவும்."
 
 msgid ""
 "A class method receives the class as an implicit first argument, just like "
