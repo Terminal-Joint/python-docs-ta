@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ta\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n" 
 
 msgid "Built-in Functions"
 msgstr "உள் கட்டமைப்புச் செயல்பாடுகள் \"Built-in Functions\""
