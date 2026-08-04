@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  actions: write # FIX: Added write permissions so step 1 can cancel workflows
 
 jobs:
   push-translations:
@@ -29,7 +30,7 @@ jobs:
       # 1. Cancel older workflow runs
       # ------------------------------------------------------------
       - name: Cancel previous workflow runs
-        uses: styfle/cancel-workflow-action@main
+        uses: styfle/cancel-workflow-action@0.12.1 # FIX: Pinned to a stable release instead of @main
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -37,16 +38,16 @@ jobs:
       # 2. Check out the translation repository
       # ------------------------------------------------------------
       - name: Checkout repository
-        uses: actions/checkout@master
+        uses: actions/checkout@v4 # FIX: Updated from @master to @v4
         with:
-          ref: ${{ matrix.version }}
+          # FIX: Removed the hardcoded `ref: ${{ matrix.version }}` so workflow_dispatch works on any branch
           fetch-depth: 0
 
       # ------------------------------------------------------------
       # 3. Set up Python
       # ------------------------------------------------------------
       - name: Set up Python
-        uses: actions/setup-python@master
+        uses: actions/setup-python@v5 # FIX: Updated from @master to @v5
         with:
           python-version: '3'
 
@@ -73,10 +74,6 @@ jobs:
 
       # ------------------------------------------------------------
       # 5. Install Transifex CLI
-      #
-      # The official installer extracts tx into the current directory.
-      # Explicitly move the binary into /usr/local/bin so later
-      # GitHub Actions steps can find it.
       # ------------------------------------------------------------
       - name: Install Transifex CLI
         shell: bash
@@ -137,12 +134,6 @@ jobs:
 
       # ------------------------------------------------------------
       # 7. Generate Transifex configuration
-      #
-      # transifex-util.py must preserve:
-      #
-      # locales/<lang>/LC_MESSAGES/
-      #
-      # Do not strip the <lang> placeholder.
       # ------------------------------------------------------------
       - name: Generate Transifex configuration
         run: |
@@ -240,14 +231,6 @@ jobs:
 
       # ------------------------------------------------------------
       # 11. Create temporary Transifex-compatible Tamil locale tree
-      #
-      # Generated .tx/config expects:
-      #
-      # ./<lang>/LC_MESSAGES/<resource>.po
-      #
-      # Therefore Tamil files must temporarily exist under:
-      #
-      # ./ta/LC_MESSAGES/<resource>.po
       # ------------------------------------------------------------
       - name: Prepare Tamil translations for Transifex
         shell: bash
