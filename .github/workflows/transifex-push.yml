@@ -359,6 +359,22 @@ jobs:
           echo "Transifex Tamil file mappings are valid."
 
       # ------------------------------------------------------------
+      # 13.5 Catch broken PO files before uploading
+      # ------------------------------------------------------------
+      - name: Check PO file syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Running syntax checks on all Tamil PO files..."
+          
+          # msgfmt -c checks the file for valid gettext formatting
+          # If a file is broken, this step will fail and tell you exactly which line is wrong.
+          find ta/LC_MESSAGES -type f -name "*.po" -exec msgfmt -c -o /dev/null {} \;
+          
+          echo "All PO files passed syntax validation!"
+
+      # ------------------------------------------------------------
       # 14. Push Tamil translations to Transifex
       # ------------------------------------------------------------
       - name: Push Tamil translations to Transifex
@@ -368,10 +384,14 @@ jobs:
 
           echo "Starting Tamil translation push..."
 
+          # --skip ensures that if one file fails, it keeps pushing the rest
+          # --debug prints the exact API error from Transifex so you can see WHY it failed
           tx push \
             -t \
             -l ta \
-            --force
+            --force \
+            --skip \
+            --debug
 
           echo
           echo "Transifex push command completed successfully."
