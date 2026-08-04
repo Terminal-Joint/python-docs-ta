@@ -385,13 +385,11 @@ jobs:
           echo "Starting Tamil translation push..."
 
           # --skip ensures that if one file fails, it keeps pushing the rest
-          # --debug prints the exact API error from Transifex so you can see WHY it failed
           tx push \
             -t \
             -l ta \
             --force \
-            --skip \
-            --debug
+            --skip
 
           echo
           echo "Transifex push command completed successfully."
