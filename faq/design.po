@@ -21,7 +21,7 @@ msgid "Design and History FAQ"
 msgstr ""
 
 msgid "Contents"
-msgstr ""
+msgstr "உள்ளடக்கம்"
 
 msgid "Why does Python use indentation for grouping of statements?"
 msgstr ""
