@@ -4,26 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Hari, 2026
 # Arun Madhu, 2026
 # Murugan Santhosh, 2026
-# Madhan Kumar S, 2026 
-#
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 16:24+0000\n"
-"PO-Revision-Date: 2025-09-16 00:01+0000\n"
-"Last-Translator: Murugan Santhosh, 2026\n"
+"POT-Creation-Date: 2026-09-13 17:08+0000\n"
+"PO-Revision-Date: 2026-09-13 17:09+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2026\n"
 "Language-Team: Tamil (https://app.transifex.com/python-doc/teams/5390/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ta\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n" 
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Built-in Functions"
 msgstr "உள் கட்டமைப்புச் செயல்பாடுகள் \"Built-in Functions\""
@@ -250,70 +248,70 @@ msgid "|func-range|_"
 msgstr "|func-range|_"
 
 msgid ":func:`repr`"
-msgstr ":func:`repr`"
+msgstr ""
 
 msgid ":func:`reversed`"
-msgstr ":func:`reversed`"
+msgstr ""
 
 msgid ":func:`round`"
-msgstr ":func:`round`"
+msgstr ""
 
 msgid "**S**"
 msgstr "**S**"
 
 msgid "|func-set|_"
-msgstr "|func-set|_"
+msgstr ""
 
 msgid ":func:`setattr`"
-msgstr ":func:`setattr`"
+msgstr ""
 
 msgid ":func:`sentinel`"
-msgstr ":func:`sentinel`"
+msgstr ""
 
 msgid ":func:`slice`"
-msgstr ":func:`slice`"
+msgstr ""
 
 msgid ":func:`sorted`"
-msgstr ":func:`sorted`"
+msgstr ""
 
 msgid ":func:`staticmethod`"
-msgstr ":func:`staticmethod`"
+msgstr ""
 
 msgid "|func-str|_"
-msgstr "|func-str|_"
+msgstr ""
 
 msgid ":func:`sum`"
-msgstr ":func:`sum`"
+msgstr ""
 
 msgid ":func:`super`"
-msgstr ":func:`super`"
+msgstr ""
 
 msgid "**T**"
 msgstr "**T**"
 
 msgid "|func-tuple|_"
-msgstr "|func-tuple|_"
+msgstr ""
 
 msgid ":func:`type`"
-msgstr ":func:`type`"
+msgstr ""
 
 msgid "**V**"
 msgstr "**V**"
 
 msgid ":func:`vars`"
-msgstr ":func:`vars`"
+msgstr ""
 
 msgid "**Z**"
 msgstr "**Z**"
 
 msgid ":func:`zip`"
-msgstr ":func:`zip`"
+msgstr ""
 
 msgid "**_**"
 msgstr "**_**"
 
 msgid ":func:`__import__`"
-msgstr ":func:`__import__`"
+msgstr ""
 
 msgid ""
 "Return the absolute value of a number.  The argument may be an integer, a "
@@ -359,11 +357,8 @@ msgstr ""
 
 msgid ""
 "When awaited, return the next item from the given :term:`asynchronous "
-"iterator`, or *default* if given and the iterator is exhausted."
+"iterator`, or *default* if given and the iterator is :term:`exhausted`."
 msgstr ""
-"காத்திருக்கும்போது, கொடுக்கப்பட்ட :term:`asynchronous iterator` லிருந்து அடுத்த "
-"உறுப்பைத் திருப்பியளிக்கும், அல்லது *default* மதிப்பு கொடுக்கப்பட்டிருந்து மற்றும் "
-"iterator முடிந்துவிட்டால் default மதிப்பைத் திருப்பியளிக்கும்."
 
 msgid ""
 "This is the async variant of the :func:`next` builtin, and behaves similarly."
@@ -451,14 +446,6 @@ msgid ""
 "`typesnumeric`). It cannot be subclassed further.  Its only instances are "
 "``False`` and ``True`` (see :ref:`typebool`)."
 msgstr ""
-"ஒரு பூலியன் மதிப்பைத் திருப்பியனுப்பவும், அதாவது ``True`` அல்லது ``False`` "
-"ஆகியவற்றில் ஒன்றை.  கருத்துருவானது நிலையான :ref:`உண்மைச் சரிபார்ப்பு நடைமுறையின் "
-"<truth>` மூலம் மாற்றப்படுகிறது. கருத்துரு பொய்யாக இருந்தாலோ அல்லது விடுபடப்பட்டாலோ, "
-"இது ``False`` ஐத் திருப்பியனுப்புகிறது; இல்லையெனில், இது ``True`` ஐத் "
-"திருப்பியனுப்புகிறது. :class:`bool` வகுப்பானது :class:`int` -இன் ஒரு துணை "
-"வகுப்பாகும் ( :ref:`typesnumeric` ஐப் பார்க்கவும்). இதை மேலும் துணை வகுப்பாக உருவாக்க "
-"முடியாது.  அதன் ஒரே நிகழ்வுகள் ``False`` மற்றும் ``True`` ( :ref:`typebool` ஐப் "
-"பார்க்கவும்) ஆகும்."
 
 msgid "The parameter is now positional-only."
 msgstr "அந்த அளவுரு இப்போது நிலை-சார்ந்தது (positional-only) மட்டுமே."
@@ -480,23 +467,16 @@ msgid ""
 "envvar:`PYTHONBREAKPOINT` environment variable. See :func:`sys."
 "breakpointhook` for usage details."
 msgstr ""
-"இயல்புநிலையில், :func:`breakpoint`-இன் செயல்பாட்டை :envvar:`PYTHONBREAKPOINT` "
-"எனும் சூழல் மாறியைக் (environment variable) கொண்டு மாற்றியமைக்கலாம். "
-"பயன்பாட்டு விவரங்களுக்கு :func:`sys.breakpointhook`-ஐப் பார்க்கவும்."
 
 msgid ""
 "Note that this is not guaranteed if :func:`sys.breakpointhook` has been "
 "replaced."
 msgstr ""
-":func:`sys.breakpointhook` மாற்றப்பட்டிருந்தால், "
-"இது உத்தரவாதம் அளிக்கப்படாது என்பதைக் கவனத்தில் கொள்க."
 
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``builtins.breakpoint`` with "
 "argument ``breakpointhook``."
 msgstr ""
-"``breakpointhook`` எனும் வாதத்துடன் ``builtins.breakpoint`` என்ற"
-" :ref:`தணிக்கை நிகழ்வை <auditing>` எழுப்புகிறது."
 
 msgid ""
 "Return a new array of bytes.  The :class:`bytearray` class is a mutable "
@@ -509,8 +489,6 @@ msgid ""
 "The optional *source* parameter can be used to initialize the array in a few "
 "different ways:"
 msgstr ""
-"விருப்பத்திற்குரிய *source* அளபுருவைப் (parameter) பயன்படுத்தி, "
-"அணியை (array) சில வெவ்வேறு வழிகளில் துவக்கலாம்:"
 
 msgid ""
 "If it is a *string*, you must also give the *encoding* (and optionally, "
@@ -522,13 +500,12 @@ msgid ""
 "If it is an *integer*, the array will have that size and will be initialized "
 "with null bytes."
 msgstr ""
-"அது ஒரு *முழு எண்* (integer) என்றால், அந்த அணிவரிசை (array) அந்த அளவைக் கொண்டிருக்கும் மற்றும் 'null' " "பைட்டுகளுடன் (null bytes) தொடக்கப்படுத்தப்படும்."
+
 msgid ""
 "If it is an object conforming to the :ref:`buffer interface "
 "<bufferobjects>`, a read-only buffer of the object will be used to "
 "initialize the bytes array."
 msgstr ""
-"அது :ref:`buffer interface <bufferobjects>`-க்கு இணங்கும் ஒரு பொருளாக இருந்தால், அந்தப் பொருளின் " "'வாசிக்க-மட்டும்' (read-only) இடையகமானது (buffer) 'bytes' அணியை (array) துவக்கப் பயன்படுத்தப்படும்."
 
 msgid ""
 "If it is an *iterable*, it must be an iterable of integers in the range ``0 "
@@ -537,10 +514,9 @@ msgstr ""
 
 msgid "Without an argument, an array of size 0 is created."
 msgstr ""
-"அளபுரு (argument) ஏதுமின்றி, 0 அளவுள்ள ஒரு அணி (array) உருவாக்கப்படுகிறது."
 
 msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
-msgstr ":ref:`binaryseq` மற்றும் :ref:`typebytearray` ஆகியவற்றையும் பார்க்கவும்."
+msgstr ""
 
 msgid ""
 "Return a new \"bytes\" object which is an immutable sequence of integers in "
@@ -552,14 +528,12 @@ msgstr ""
 msgid ""
 "Accordingly, constructor arguments are interpreted as for :func:`bytearray`."
 msgstr ""
-"அதற்கேற்ப, கன்ஸ்ட்ரக்டர் (constructor) அளபுருக்கள் :func:`bytearray`-க்கு "
-"உள்ளதைப் போலவே பொருள் கொள்ளப்படுகின்றன."
 
 msgid "Bytes objects can also be created with literals, see :ref:`strings`."
-msgstr "Bytes ஆப்ஜெக்ட்களை லிட்டரல்களைக் (literals) கொண்டும் உருவாக்கலாம்; :ref:`strings`-ஐப் பார்க்கவும்."
+msgstr ""
 
 msgid "See also :ref:`binaryseq`, :ref:`typebytes`, and :ref:`bytes-methods`."
-msgstr "மேலும் பார்க்கவும்: :ref:`binaryseq`, :ref:`typebytes` மற்றும் :ref:`bytes-methods`."
+msgstr ""
 
 msgid ""
 "Return :const:`True` if the *object* argument appears callable, :const:"
@@ -573,8 +547,6 @@ msgid ""
 "This function was first removed in Python 3.0 and then brought back in "
 "Python 3.2."
 msgstr ""
-"இந்தச் செயல்பாடு முதலில் Python 3.0-இல் நீக்கப்பட்டு, பின்னர் "
-"Python 3.2-இல் மீண்டும் கொண்டுவரப்பட்டது."
 
 msgid ""
 "Return the string representing a character with the specified Unicode code "
@@ -588,7 +560,7 @@ msgid ""
 msgstr ""
 
 msgid "Transform a method into a class method."
-msgstr "ஒரு மெத்தடை (method) ஒரு கிளாஸ் மெத்தடாக (class method) மாற்றவும்."
+msgstr ""
 
 msgid ""
 "A class method receives the class as an implicit first argument, just like "
@@ -959,11 +931,11 @@ msgstr ""
 
 msgid ""
 "The *source* argument is parsed and evaluated as a Python expression "
-"(technically speaking, a condition list) using the *globals* and *locals* "
-"mappings as global and local namespace.  If the *globals* dictionary is "
-"present and does not contain a value for the key ``__builtins__``, a "
-"reference to the dictionary of the built-in module :mod:`builtins` is "
-"inserted under that key before *source* is parsed. Overriding "
+"(technically speaking, an :ref:`expression list <exprlists>`) using the "
+"*globals* and *locals* mappings as global and local namespace. If the "
+"*globals* dictionary is present and does not contain a value for the key "
+"``__builtins__``, a reference to the dictionary of the built-in module :mod:"
+"`builtins` is inserted under that key before *source* is parsed. Overriding "
 "``__builtins__`` can be used to restrict or change the available names, but "
 "this is **not** a security mechanism: the executed code can still access all "
 "builtins. If the *locals* mapping is omitted it defaults to the *globals* "
@@ -1557,10 +1529,10 @@ msgid ""
 "yielding the results.  If additional *iterables* arguments are passed, "
 "*function* must take that many arguments and is applied to the items from "
 "all iterables in parallel.  With multiple iterables, the iterator stops when "
-"the shortest iterable is exhausted.  If *strict* is ``True`` and one of the "
-"iterables is exhausted before the others, a :exc:`ValueError` is raised. For "
-"cases where the function inputs are already arranged into argument tuples, "
-"see :func:`itertools.starmap`."
+"the shortest iterable is :term:`exhausted`.  If *strict* is ``True`` and one "
+"of the iterables is exhausted before the others, a :exc:`ValueError` is "
+"raised. For cases where the function inputs are already arranged into "
+"argument tuples, see :func:`itertools.starmap`."
 msgstr ""
 
 msgid "Added the *strict* parameter."
@@ -1624,7 +1596,7 @@ msgstr ""
 msgid ""
 "Retrieve the next item from the :term:`iterator` by calling its :meth:"
 "`~iterator.__next__` method.  If *default* is given, it is returned if the "
-"iterator is exhausted, otherwise :exc:`StopIteration` is raised."
+"iterator is :term:`exhausted`, otherwise :exc:`StopIteration` is raised."
 msgstr ""
 
 msgid ""
@@ -2045,7 +2017,7 @@ msgstr ""
 msgid ""
 "If given, *doc* will be the docstring of the property attribute. Otherwise, "
 "the property will copy *fget*'s docstring (if it exists).  This makes it "
-"possible to create read-only properties easily using :func:`property` as a :"
+"possible to create read-only properties easily using :deco:`property` as a :"
 "term:`decorator`::"
 msgstr ""
 
@@ -2394,7 +2366,7 @@ msgstr ""
 
 msgid ""
 "Static methods in Python are similar to those found in Java or C++. Also, "
-"see :func:`classmethod` for a variant that is useful for creating alternate "
+"see :deco:`classmethod` for a variant that is useful for creating alternate "
 "class constructors."
 msgstr ""
 
@@ -2610,6 +2582,12 @@ msgid ""
 "would."
 msgstr ""
 
+msgid ""
+"Unlike a :keyword:`class` statement, the three argument form does not call "
+"the metaclass ``__prepare__`` method (see :ref:`prepare`).  Use :func:`types."
+"new_class` to dynamically create a class using the appropriate metaclass."
+msgstr ""
+
 msgid "See also :ref:`class-customization`."
 msgstr ""
 
@@ -2689,9 +2667,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"By default, :func:`zip` stops when the shortest iterable is exhausted. It "
-"will ignore the remaining items in the longer iterables, cutting off the "
-"result to the length of the shortest iterable::"
+"By default, :func:`zip` stops when the shortest iterable is :term:"
+"`exhausted`. It will ignore the remaining items in the longer iterables, "
+"cutting off the result to the length of the shortest iterable::"
 msgstr ""
 
 msgid ""
@@ -2712,7 +2690,7 @@ msgstr ""
 
 msgid ""
 "Unlike the default behavior, it raises a :exc:`ValueError` if one iterable "
-"is exhausted before the others:"
+"is :term:`exhausted` before the others:"
 msgstr ""
 
 msgid ""
