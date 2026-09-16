@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Code Objects"
-msgstr ""
+msgstr "நிரலின் Object-கள்"
 
 msgid ""
 "Code objects are a low-level detail of the CPython implementation. Each one "
