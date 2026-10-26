@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:56+0000\n"
+"POT-Creation-Date: 2026-10-25 17:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Tamil (https://app.transifex.com/python-doc/teams/5390/ta/)\n"
 "MIME-Version: 1.0\n"
@@ -124,6 +124,9 @@ msgid ""
 "apply a second repetition to an inner repetition, parentheses may be used. "
 "For example, the expression ``(?:a{6})*`` matches any multiple of six "
 "``'a'`` characters."
+msgstr ""
+
+msgid "Special characters"
 msgstr ""
 
 msgid "The special characters are:"
@@ -624,6 +627,9 @@ msgid ""
 "*name* can only contain bytes in the ASCII range (``b'\\x00'``-``b'\\x7f'``)."
 msgstr ""
 
+msgid "Special sequences"
+msgstr ""
+
 msgid ""
 "The special sequences consist of ``'\\'`` and a character from the list "
 "below. If the ordinary character is not an ASCII digit or an ASCII letter, "
@@ -802,6 +808,9 @@ msgid "``\\Z``"
 msgstr ""
 
 msgid "The same as ``\\z``.  For compatibility with old Python versions."
+msgstr ""
+
+msgid "Standard escapes"
 msgstr ""
 
 msgid ""
@@ -2333,6 +2342,9 @@ msgid "(?"
 msgstr ""
 
 msgid "(?:"
+msgstr ""
+
+msgid "(?>"
 msgstr ""
 
 msgid "(?P<"
